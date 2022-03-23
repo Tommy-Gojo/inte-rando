@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "abeezee";
+    src: url(../../asset/font/abeezee_[fr.allfont.net].ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    font-family: "abeezee";
+}
+.img-bg{
+    background: no-repeat 
+    url(../../asset/img/brooke-cagle-9YSL6k8Z69w-unsplash\ 2.png) ;
+    height: 1000px;
+    
+    object-fit: contain;
+    background-position-x: -500px;
+    
+}
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+.magnifying-glass{
+    fill: white;
+    
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Playfair Display', serif ;
+}
+.radial-simple {
+    background: radial-gradient(rgb(8, 6, 99), rgb(13, 13, 68));
+}
+.bg-color-d{
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
