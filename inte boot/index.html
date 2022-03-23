@@ -47,28 +47,59 @@
                 </p>
             </article>
         </section>
-        <section>
+        <section class="container-fluid block-base2">
             <article class="container-md">
                 <ul class="d-flex flex-row bd-highlight mb-3">
-                    <li class="p-2 bd-highlight"><a href="">La Dune du pillat</a></li>
-                    <li class="p-2 bd-highlight"><a href="">Les cevennes by night</a></li>
-                    <li class="p-2 bd-highlight"><a href="">Les pyrenees</a></li>
-                    <li class="p-2 bd-highlight"><a href="">Forets des vosges</a></li>
+                    <li class="p-2 bd-highlight "><a href="" class="text-white">La Dune du pillat</a></li>
+                    <li class="p-2 bd-highlight "><a href="" class="text-white">Les cevennes by night</a></li>
+                    <li class="p-2 bd-highlight "><a href="" class="text-white">Les pyrenees</a></li>
+                    <li class="p-2 bd-highlight "><a href="" class="text-white">Forets des vosges</a></li>
                 </ul>
-                <img src="../asset/img/joe-mania-tyAAl6r_c2U-unsplash 1.png" class="img-fluid rounded mx-auto d-block" alt="">
-                <h3>La dune du pillat</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum temporibus, voluptatum eligendi cum incidunt reiciendis quasi pariatur ipsa consequuntur, voluptas at soluta aliquid accusantium consequatur dignissimos nemo necessitatibus non! Fugit.</p>
-                    <p>
+                <div id="carouselExampleControls" class="carousel slide container-fluid" data-bs-ride="carousel ">
+                     <!--img-->
+                    <div class="carousel-inner ">
+                      <div class="carousel-item    ">
+                        <img src="../asset/img/joe-mania-tyAAl6r_c2U-unsplash 1.png" class="d-block w-150 rounded mx-auto d-block img-1a" alt="...">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="https://picsum.photos/seed/2/1920/1080" class="d-block w-150 rounded mx-auto d-block" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://picsum.photos/seed/picsum/1920/1080" class="d-block w-150 rounded mx-auto d-block " alt="...">
+                      </div>
+                    </div>
+                    <!--img-->
+                    <!--control-->        
+                    <button class="carousel-control-prev btn-group w-w-auto " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon bg-dark " aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                
+                    </button>
+                    <button class="carousel-control-next btn-group  w-w-8rem " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon bg-dark " aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                     <!--control end-->
+                  </div>
+                <h3 class="text-center  display-1 p-2  mt-5">La dune du pillat</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum temporibus, voluptatum eligendi cum incidunt reiciendis quasi pariatur ipsa consequuntur, voluptas at soluta aliquid accusantium consequatur dignissimos nemo necessitatibus non! Fugit.</p>
+                    <p class="text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae a consequuntur repellat! Nihil, vero culpa, quia deserunt qui reiciendis modi esse dolore natus a, dolor est ex beatae nobis?
                     Quae repudiandae dicta fugit accusamus quis accusantium architecto rerum delectus, commodi sapiente explicabo! Dolores enim veritatis alias nihil aliquam, doloribus velit deserunt assumenda nisi dolorem impedit voluptatem repudiandae eligendi ad.
                 </p>
-                    <input type="button">
-                <p> 
-                    PARTAGER :
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center cont-size">
+                    <input type="button" value="Voir nos offre " class="btn btn-info text-center btn-group br-b text-white" >
+                </div>
+                <div class="block-end">
+                <p class="angle-right"> 
+                    PARTAGER:
                 </p>
-            <img src="../asset/img/Vector.png" alt="">
-            <img src="../asset/img/instagram 1.png" alt="">
-            <img src="../asset/img/facebook 1.png" alt="">
+                    <div class="img-reseau">
+                        <img src="../asset/img/Vector.png" alt="">
+                        <img src="../asset/img/instagram 1.png" alt="">
+                        <img src="../asset/img/facebook 1.png" alt="">
+                    </div>
+                </div>
         </article>
     </main>
     <main class="bg-color-d">
@@ -76,8 +107,10 @@
     <section>
         <article class="container-md">
             <div>
-                <h2>A propos</h2>
-                <p>Une Equipe d'animateur passionées.Notre objectif est de vous proposer des randonnées qualiré pour de ssouvenirs inoubliables <span> riche d'une experience,longue notre équipe sauras apporter saura apporter a votre aventure des expertises autours de divers domaines, plante, animaux et bien d'autre. </span>
+                <h2 class="text-center  display-1 p-2  mt-5">A propos</h2>
+                <p class="text-center text-break">Une Equipe d'animateur passioné.
+                Notre objectif est de vous proposer des randonnées qualiré pour de souvenirs inoubliables.  
+                Riche d'une experience,longue notre équipe sauras apporter saura apporter a votre aventure des expertises autours de divers domaines, plante, animaux et bien d'autre.
                 </p>
             </div>
             <input type="button" value="En savoir plus">
